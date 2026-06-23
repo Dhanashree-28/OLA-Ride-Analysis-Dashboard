@@ -1,35 +1,44 @@
-# OLA-Ride-Analysis-Dashboard
-The objective of this project was to analyze U.S. airline operational performance and identify factors affecting flight delays, cancellations, and on-time performance. The goal was to help airlines understand operational inefficiencies, improve customer satisfaction, and make data-driven decisions."
+# OLA Ride Analysis
 
-## Dataset
-- Source: US Airline Dataset
-- Records: 100,000+ flights
-- Fields: Airline, Airport, Departure Delay, Arrival Delay, Cancellation Status, etc.
+## Project Objective
+Analyze OLA ride booking data to identify booking trends, customer behavior, cancellation patterns, and revenue performance, enabling data-driven business decisions.
 
 ## Tools Used
 - SQL
 - Power BI
 - Excel
 
+## Dataset
+- 10,000+ ride records
+- Ride status, vehicle type, booking value, cancellations, ratings, and payment methods
+
 ## Data Cleaning
-- Removed duplicate records
 - Handled missing values
-- Standardized column formats
-- Created derived metrics
+- Removed duplicates
+- Standardized data formats
+- Validated data quality
 
 ## KPIs
-- Total Flights
-- On-Time Performance (OTP) Rate
-- Average Delay
+- Total Bookings
+- Booking Success Rate
 - Cancellation Rate
+- Revenue by Vehicle Type
+- Average Booking Value
+- Customer & Driver Ratings
 
-## Dashboard
-(Add dashboard screenshots)
+## Dashboard Preview
+
+(Add screenshots here)
 
 ## Key Insights
-- Airline X had the highest OTP rate.
-- Weather-related delays were concentrated in specific airports.
-- Certain routes consistently experienced longer delays.
+- Premium vehicle categories generated higher revenue per ride.
+- Most cancellations occurred in specific ride categories.
+- Peak booking demand was observed during particular time periods.
+
+## Recommendations
+- Reduce cancellations through better driver allocation.
+- Increase availability during peak demand periods.
+- Focus promotions on high-performing vehicle categories.
 
 ## Recommendations
 - Improve scheduling on high-delay routes.
